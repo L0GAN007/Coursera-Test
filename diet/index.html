@@ -4,6 +4,7 @@
     <title>DIET DASHBOARD</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="main">
@@ -19,7 +20,7 @@
                     <li><a href="#">CALCULATOR</a></li>
                     <li><a href="#">MEAL PLAN</a></li>
                     <li><a href="#">WORKOUT PLAN</a></li>
-                    <li><a href="#">CONTACT</a></li>
+            
                 </ul>
             </div>
 
@@ -38,8 +39,8 @@
 
                 <div class="form">
                     <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
+                    <input type="email" name="email" placeholder="Enter Email">
+                    <input type="password" name="" placeholder="Enter Password">
                     <button class="btnn"><a href="#">Login</a></button>
 
                     <p class="link">Don't have an account<br>
@@ -55,10 +56,27 @@
                     </div>
 
                 </div>
+
                     </div>
                 </div>
         </div>
     </div>
-    <script src="icon.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
+
+<head>
+    <title>BMI and BMR Calculator</title>
+</head>
+
+<body>
+    <h1>BMI and BMR Calculator</h1>
+    <button onclick="redirectToCalculator()">Calculate</button>
+
+    <script>
+        function redirectToCalculator() {
+            window.location.href = 'result.html';
+        }
+    </script>
+</body>
+
 </html>
