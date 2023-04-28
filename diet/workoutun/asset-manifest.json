@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/workoutun/static/css/main.e20bab4b.css",
+    "main.js": "/workoutun/static/js/main.c10495a2.js",
+    "static/media/banner.png": "//workoutun/static/media/banner.62b0de0e8a74b6de70cb.png",
+    "static/media/Logo.png": "/workoutun/static/media/Logo.556884189d99f9caa0b5.png",
+    "index1.html": "/workoutun/index1.html",
+    "main.e20bab4b.css.map": "/workoutun/static/css/main.e20bab4b.css.map",
+    "main.c10495a2.js.map": "/workoutun/static/js/main.c10495a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e20bab4b.css",
+    "static/js/main.c10495a2.js"
+  ]
+}
